@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Willowbrew</title>
+  <link rel="stylesheet" href="CafeDesign.css" />
+</head>
+<body>
+
+  <header>
+    <img src="Willowbrew.png" alt="Willowbrew Logo" class="logo" />
+    <h1>Willowbrew</h1>
+    <p class="tagline">A quiet place to pause, sip, and breathe.</p>
+    <nav>
+      <a href="Cafe.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="order.html">Order</a>
+      <a href="moment.html">Need a moment?</a>
+    </nav>
+  </header>
+
+  <section id="intro">
+    <h2>Welcome to Willowbrew</h2>
+    <p>
+      Nestled in the quiet corners of your imagination, Willowbrew is a peaceful café
+      where each sip feels like a breath of calm.  
+      Whether you're here for a drink, a pause, or just a quote to get you through the day —  
+      you're always welcome.
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Willowbrew. Breathe easy.</p>
+  </footer>
+
+</body>
+</html>
