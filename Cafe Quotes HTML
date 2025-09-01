@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Need a Moment? | Willowbrew</title>
+  <link rel="stylesheet" href="CafeDesign.css" />
+  <script defer src="Cafeiru.js"></script>
+</head>
+<body>
+
+  <header>
+    <img src="Willowbrew.png" alt="Willowbrew Logo" class="logo" />
+    <h1>Willowbrew</h1>
+    <p class="tagline">A quiet place to pause, sip, and breathe.</p>
+    <nav>
+      <a href="Cafe.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="order.html">Order</a>
+      <a href="moment.html">Need a moment?</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Need a Moment?</h2>
+    <p>Click the button below for a gentle reminder to slow down. 🍃</p>
+    <button onclick="showQuote()">Click here</button>
+    <p id="quoteArea"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Willowbrew. Breathe easy.</p>
+  </footer>
+
+</body>
+</html>
