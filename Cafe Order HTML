@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Order | Willowbrew</title>
+  <link rel="stylesheet" href="CafeDesign.css" />
+  <script defer src="Cafeiru.js"></script>
+</head>
+<body>
+
+  <header>
+    <img src="Willowbrew.png" alt="Willowbrew Logo" class="logo" />
+    <h1>Willowbrew</h1>
+    <p class="tagline">A quiet place to pause, sip, and breathe.</p>
+    <nav>
+      <a href="Cafe.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="order.html">Order</a>
+      <a href="moment.html">Need a moment?</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Place an Order</h2>
+    <form id="orderForm">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" required />
+
+      <label for="drink">Select Your Drink:</label>
+      <select id="drink" required>
+        <option value="">--Choose--</option>
+        <option value="Rose Latte">Rose Latte</option>
+        <option value="Vanilla Cold Brew">Vanilla Cold Brew</option>
+        <option value="Cloud Tea">Cloud Tea</option>
+        <option value="Lavender Creambrew">Lavender Creambrew</option>
+        <option value="Mocha Dust">Mocha Dust</option>
+        <option value="Coconut Chai">Coconut Chai</option>
+      </select>
+
+      <label for="qty">Quantity:</label>
+      <input type="number" id="qty" min="1" max="10" value="1" required />
+
+      <p id="totalPrice" class="price-display">Total: ₱0</p>
+
+      <label for="message">Special Request:</label>
+      <textarea id="message" rows="4" placeholder="Less sugar? More love?"></textarea>
+
+      
+      <fieldset class="payment-options">
+        <legend>Select Payment Method:</legend>
+        <label><input type="radio" name="payment" value="GCash" required /> GCash</label>
+        <label><input type="radio" name="payment" value="Maya" /> Maya</label>
+        <label><input type="radio" name="payment" value="GrabPay" /> GrabPay</label>
+      </fieldset>
+
+      <button type="submit">Submit Order</button>
+    </form>
+
+    <div id="confirmation" class="confirmation-msg"></div>
+    <button id="orderAgainBtn" class="again-btn" style="display: none;">Order Another</button>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Willowbrew. Breathe easy.</p>
+  </footer>
+
+</body>
+</html>
